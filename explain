@@ -1,0 +1,19 @@
+[ 1.0 The Package Installer for Python ]
+1. pip: nodeJs에서의 npm역할이지만 모든 것을 전역으로 설치해버림
+pipenv: 지역으로 설치해줌
+
+[ 1.2 Creating our Env and Installing Django ]
+1. pipenv –three: python3의 환경으로 가상환경 만들기 -> 이렇게 생성된 파일이 pipfile
+2. pipenv shell: 가상환경 실행시킴
+3. pipenv install Django=2.2.5: 2.2.5버전 장고를 설치함
+
+[ 1.3 Creating the Github Repository ]
+1. git repo 만들고 리드미, ignore 파일 만들기
+
+[ 2.0 Creating a Django Project]
+1. Django-admin startproject config: config안의 config 폴더와 manage.py를 바깥 폴더로 꺼내고 처음 생성한 config 폴더 지우기
+
+[ 2.1 Setting up VSCode and Python Like a Pro ]
+1. 파이썬은 컴파일 언어가 아님. 컴파일러가 프로그램 시작 전에 에러를 잡아줌.
+	-> Linter: 파이썬에서 미리 에러를 찾아주는 역할 (flake8 설치)
+	-> Formatter: 코드 자동정렬(black)
